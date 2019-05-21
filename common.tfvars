@@ -18,7 +18,7 @@ project_resource_group_name = "pcms-ss-non-prod-mgmt"
 #ip_cidr_range="10.2.2.0/24"
 
 #primary_zone="f"
-git_branch="master"
+git_branch="pcms-manual-role-override"
 region="us-central1" #europe-west2 (london) / us-west1 / etc - us-central1 is cheapest! 
 project_name="pcms-ss-non-prod" #$pcms-custxx-non-prod or pcms-custxx-prod - replace custxx with your customer
 customer_name="john" #used as a prefix to vms etc
