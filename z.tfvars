@@ -1,16 +1,36 @@
-bucket_name = "customername"
-#github_token = "566d044622b59003411bd18457b4bc19a69a013c"
-github_token = "af9b3d1bdb2581501d6bea80c0b82222caf18965"
-# To get this go to Azure --> Active Directory --> Find your user account -->> Onject ID is in the main screen
-key_vault_user_object_id = "e1e00dcb-7e3c-4cc5-b784-073eecf057a9" 
-user_email = "sunveer.seera@pcmsgroup.com"
+environment_name="z"
 
-project_name = "pcms-ss-non-prod"
-environment = "mgmt"
+ip_cidr_range="10.2.6.0/24"
+ 
 
-jenkins_image_regex = "^jenkins-ubuntu-v\\d{14}"
+# A small environment for testing - 30, 40, 50, 90, 95
 
-management_ip_cidr_range = "10.2.0.0/28"
+bastion_enabled=1
 
-vnet_address_space = "10.2.0.0/16"
+lb_enabled=1
 
+mq_enabled=0
+
+bs_app_enabled=1
+
+cdb_db_enabled=1
+
+mongo_db_enabled=0
+ 
+
+mrep_db_enabled=0
+
+dfm_messagestore_app_enabled=0
+
+bo_app_enabled=0
+ 
+
+private_ip_address_allocation = "Dynamic"
+ 
+
+software_host="pcmsssnonprod"
+
+cdb_db_machine_type="Standard_D2s_v3"
+ 
+
+customer_ip_cidr_ranges = ["213.175.224.0/19","10.205.8.0/22","109.158.15.76/32"]
