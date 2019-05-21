@@ -15,5 +15,5 @@ software_host="pcmsssnonprod"
 cdb_db_machine_type="Standard_D2s_v3"
 customer_ip_cidr_ranges = ["213.175.224.0/19","10.205.8.0/22","109.158.15.76/32"]
 
-variable app_server_image_regex = "^tomcat-7-v\\d{14}" 
+app_server_image_regex = "^tomcat-7-v\\d{14}" 
 lb_server_image_regex = "^load-balancer-v\\d{14}" 
