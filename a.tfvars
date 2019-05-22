@@ -1,5 +1,5 @@
 environment_name="a"
-ip_cidr_range="10.3.6.0/24"
+ip_cidr_range="10.2.1.0/24"
 # A small environment for testing - 30, 40, 50, 90, 95
 bastion_enabled=1
 lb_enabled=1
