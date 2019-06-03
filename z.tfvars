@@ -10,7 +10,7 @@ bs_app_enabled=1
 cdb_db_enabled=1
 bo_app_enabled=1
 bastion_enabled=1
-mrep_db_enabled=0
+mrep_db_enabled=1
 mongo_db_enabled=1
 dfm_messagestore_app_enabled=0
 
