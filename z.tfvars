@@ -18,6 +18,8 @@ cdb_db_machine_type ="Standard_D2s_v3"
 customer_ip_cidr_ranges = ["213.175.224.0/19","10.205.8.0/22","109.158.15.76/32"]
 private_ip_address_allocation = "Dynamic"
 
+mrep_db_machine_type = "Standard_A2_v2"
+
 lb_server_image_regex = "^load-balancer-v\\d{14}" 
 db_server_image_regex = "^db2-105-wse-v\\d{14}"
 mq_server_image_regex = "^activemq-515-v\\d{14}" 
