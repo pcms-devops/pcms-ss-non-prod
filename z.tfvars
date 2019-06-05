@@ -2,8 +2,9 @@
 software_host="pcmsssnonprod"
 ip_cidr_range="10.2.6.0/24"
 environment_name="z"
+customer_ip_cidr_ranges = ["213.175.224.0/19","10.205.8.0/22","109.158.15.76/32"]
+private_ip_address_allocation = "Dynamic"
 
-# A small environment for testing - 30, 40, 50, 90, 95
 lb_enabled=1
 mq_enabled=1
 tm_app_enabled=1
@@ -14,11 +15,10 @@ bastion_enabled=1
 mrep_db_enabled=1
 mongo_db_enabled=1
 dfm_messagestore_app_enabled=1
+external_bo_audit_msg_app_enabled=1
 
 cdb_db_machine_type ="Standard_D2s_v3"
-customer_ip_cidr_ranges = ["213.175.224.0/19","10.205.8.0/22","109.158.15.76/32"]
-private_ip_address_allocation = "Dynamic"
-
+bo_app_machine_type = "Standard_A2_v2"
 mrep_db_machine_type = "Standard_A2_v2"
 
 lb_server_image_regex = "^load-balancer-v\\d{14}" 
