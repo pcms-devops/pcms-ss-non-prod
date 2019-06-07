@@ -11,7 +11,6 @@ tm_app_enabled=1
 bs_app_enabled=1
 cdb_db_enabled=1
 bo_app_enabled=1
-dds_app_enabled=1
 etl_app_enabled=1
 bastion_enabled=1
 mrep_db_enabled=1
