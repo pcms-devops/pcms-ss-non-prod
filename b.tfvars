@@ -6,6 +6,9 @@ customer_ip_cidr_ranges = ["213.175.224.0/19","10.205.8.0/22","109.158.15.76/32"
 private_ip_address_allocation = "Dynamic"
 
 bs_app_enabled=1
+lb_enabled=1
+mq_enabled=1
+bastion_enabled=1
 
 cdb_db_machine_type ="Standard_D2s_v3"
 bo_app_machine_type = "Standard_A2_v2"
