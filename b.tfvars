@@ -1,7 +1,7 @@
 
 software_host="pcmsssnonprod"
 ip_cidr_range="10.4.6.0/24"
-environment_name="z"
+environment_name="b"
 customer_ip_cidr_ranges = ["213.175.224.0/19","10.205.8.0/22","109.158.15.76/32"]
 private_ip_address_allocation = "Dynamic"
 
