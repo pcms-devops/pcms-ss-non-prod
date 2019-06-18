@@ -1,6 +1,6 @@
 
 ip_cidr_range="10.2.9.0/24"
-environment_name="C"
+environment_name="c"
 
 software_host="pcmsssnonprod"
 software_path="releases/product3.123.0-Lbuild.34"
