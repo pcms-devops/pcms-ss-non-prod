@@ -1,6 +1,10 @@
-software_host="pcmsssnonprod"
+
 ip_cidr_range="10.2.9.0/24"
-environment_name="c"
+environment_name="C"
+
+software_host="pcmsssnonprod"
+software_path="releases/product3.123.0-Lbuild.34"
+
 customer_ip_cidr_ranges = ["213.175.224.0/19","10.205.8.0/22","109.158.15.76/32"]
 private_ip_address_allocation = "Dynamic"
 
@@ -17,8 +21,8 @@ mongo_db_enabled=1
 dfm_messagestore_app_enabled=1
 
 external_hht_app_enabled=1
-external_payment_app_enabled=1
 external_security_app_enabled=1
+external_payment_app_enabled=1
 external_reference_app_enabled=1
 external_transaction_app_enabled=1
 external_basket_calc_app_enabled=1
@@ -29,8 +33,8 @@ cdb_db_machine_type = "Standard_B4ms"
 bo_app_machine_type = "Standard_A2_v2"
 etl_app_machine_type = "Standard_A2_v2"
 mrep_db_machine_type = "Standard_A2_v2"
-default_external_app_machine_type = "Standard_B4ms"
 external_endless_aisle_app_machine_type = "Standard_B2ms"
+default_external_app_machine_type = "Standard_B4ms"
 
 lb_server_image_regex = "^load-balancer-v\\d{14}" 
 db_server_image_regex = "^db2-105-wse-v\\d{14}"
