@@ -5,7 +5,8 @@ software_host="pcmsssnonprod"
 software_path="releases/product3.123.0-Lbuild.34"
 software_version="3.123.0"
 
-git_branch="pcms_manual"
+#git_branch="pcms_manual"
+git_branch="pcms-manual-role-override"
 
 ip_cidr_range="10.2.13.0/24"
 customer_ip_cidr_ranges = ["213.175.224.0/19","10.205.8.0/22","109.158.15.76/32"]
