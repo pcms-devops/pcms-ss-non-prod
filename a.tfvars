@@ -5,7 +5,7 @@ software_host="pcmsssnonprod"
 software_path="releases/product3.123.0-Lbuild.34"
 software_version="3.123.0"
 
-#git_branch="pcms_manual"
+#git_branch="pcms_manual"  # Pre-Loadbalancer Branch
 git_branch="pcms-manual-role-override"
 
 ip_cidr_range="10.2.13.0/24"
@@ -53,11 +53,17 @@ external_bo_audit_msg_app_enabled=1
 external_endless_aisle_app_enabled=1
 external_hospitality_grazing_app_enabled=1
 
-cdb_db_machine_type = "Standard_B4ms"
-bo_app_machine_type = "Standard_A2_v2"
-etl_app_machine_type = "Standard_A2_v2"
-mrep_db_machine_type = "Standard_A2_v2"
-default_external_app_machine_type = "Standard_B4ms"
+#cdb_db_machine_type = "Standard_B4ms"
+#bo_app_machine_type = "Standard_A2_v2"
+#mrep_db_machine_type = "Standard_A2_v2"
+#etl_app_machine_type = "Standard_A2_v2"
+bo_app_machine_type = "Standard_D2s_v3"
+mrep_db_machine_type = "Standard_D2s_v3"
+etl_app_machine_type = "Standard_D2s_v3"
+
+
+#default_external_app_machine_type = "Standard_B4ms"
+default_external_app_machine_type = "Standard_D2s_v3"
 external_endless_aisle_app_machine_type = "Standard_B2ms"
 
 lb_server_image_regex = "^load-balancer-v\\d{14}" 
