@@ -64,7 +64,7 @@ etl_app_machine_type = "Standard_D2s_v3"
 
 #default_external_app_machine_type = "Standard_B4ms"
 default_external_app_machine_type = "Standard_D2s_v3"
-external_endless_aisle_app_machine_type = "Standard_D2s_v3"
+external_endless_aisle_app_machine_type = "Standard_D4s_v3"
 
 lb_server_image_regex = "^load-balancer-v\\d{14}" 
 db_server_image_regex = "^db2-105-wse-v\\d{14}"
