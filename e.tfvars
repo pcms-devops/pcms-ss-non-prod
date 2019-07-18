@@ -13,7 +13,7 @@ customer_ip_cidr_ranges = ["213.175.224.0/19","10.205.8.0/22","109.158.15.76/32"
 private_ip_address_allocation = "Dynamic"
 
 lb_enabled=1
-mq_enabled=0
+mq_enabled=1
 tm_app_enabled=0
 bs_app_enabled=1
 cdb_db_enabled=1
