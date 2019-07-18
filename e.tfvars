@@ -23,7 +23,7 @@ etl_app_enabled=0
 dds_app_enabled=0
 bastion_enabled=1
 mrep_db_enabled=0
-mongo_db_enabled=0
+mongo_db_enabled=1
 ddshelper_app_enabled=0
 
 dfm_delivery_app_enabled=0
