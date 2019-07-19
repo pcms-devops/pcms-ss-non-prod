@@ -18,11 +18,11 @@ tm_app_enabled=0
 bs_app_enabled=1
 cdb_db_enabled=1
 bo_app_enabled=1
-cust_db_enabled=0
+cust_db_enabled=1
 etl_app_enabled=0
 dds_app_enabled=0
 bastion_enabled=1
-mrep_db_enabled=0
+mrep_db_enabled=1
 mongo_db_enabled=1
 ddshelper_app_enabled=0
 
