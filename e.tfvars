@@ -57,14 +57,14 @@ external_hospitality_grazing_app_enabled=0
 #bo_app_machine_type = "Standard_A2_v2"
 #mrep_db_machine_type = "Standard_A2_v2"
 #etl_app_machine_type = "Standard_A2_v2"
-bo_app_machine_type = "Standard_D2s_v3"
-mrep_db_machine_type = "Standard_D2s_v3"
-etl_app_machine_type = "Standard_D2s_v3"
+bo_app_machine_type = "Standard_D2_v2"
+mrep_db_machine_type = "Standard_D2_v2"
+etl_app_machine_type = "Standard_D2_v2"
 
 
-default_external_app_machine_type = "Standard_B4ms"
+default_external_app_machine_type = "Standard_D2_v2"
 #default_external_app_machine_type = "Standard_D2s_v3"
-external_endless_aisle_app_machine_type = "Standard_D4s_v3"
+external_endless_aisle_app_machine_type = "Standard_D2_v2"
 
 lb_server_image_regex = "^load-balancer-v\\d{14}" 
 db_server_image_regex = "^db2-105-wse-v\\d{14}"
