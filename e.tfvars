@@ -60,7 +60,7 @@ external_hospitality_grazing_app_enabled=0
 bo_app_machine_type = "Standard_D1_v2"
 mrep_db_machine_type = "Standard_D1_v2"
 etl_app_machine_type = "Standard_D1_v2"
-
+bs_app_machine_type = "Standard_D2_v3"
 
 default_external_app_machine_type = "Standard_D1_v2"
 external_endless_aisle_app_machine_type = "Standard_D1_v2"
