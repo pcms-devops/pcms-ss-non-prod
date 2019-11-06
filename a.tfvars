@@ -75,11 +75,16 @@ mq_server_image_regex = "^activemq-515-v\\d{14}"
 app_server_image_regex = "^tomcat-7-v\\d{14}"
 #app_server_image_regex = "tomcat-7-v20190730141935-local-build"    # this was the original 
 
+app_dds_server_image_regex = "^tomcat-7-v\\d{14}"
+vcs_beanstore_image_regex = "^tomcat-7-v\\d{14}"
+app_ddshelper_server_image_regex = "^tomcat-7-v\\d{14}"
+etl_app_server_image_regex = "^tomcat-7-v\\d{14}"
+
 mongo_server_image_regex = "^mongodb-32-v\\d{14}" 
-vcs_beanstore_image_regex = "tomcat-7-v20190730141935-local-build"
-app_dds_server_image_regex = "tomcat-7-v20190730141935-local-build"
-etl_app_server_image_regex = "tomcat-7-v20190730141935-local-build"
-app_ddshelper_server_image_regex = "tomcat-7-v20190730141935-local-build"
+#vcs_beanstore_image_regex = "tomcat-7-v20190730141935-local-build"
+#app_dds_server_image_regex = "tomcat-7-v20190730141935-local-build"
+#etl_app_server_image_regex = "tomcat-7-v20190730141935-local-build"
+#app_ddshelper_server_image_regex = "tomcat-7-v20190730141935-local-build"
 
 
 
